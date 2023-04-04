@@ -5,6 +5,7 @@
 	"extends": "@tsconfig/node18/tsconfig.json",
 	"compilerOptions": {
 		"alwaysStrict": true,
+		"declaration": true,
 		"experimentalDecorators": true,
 		"inlineSourceMap": true,
 		"inlineSources": true,
