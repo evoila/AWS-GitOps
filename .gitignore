@@ -2,3 +2,7 @@ node_modules/
 
 # contains output of `tsc` (JavaScript files)
 dist/
+
+# CDK asset staging directory
+.cdk.staging/
+cdk.out/
