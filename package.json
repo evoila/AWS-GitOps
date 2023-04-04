@@ -1,6 +1,17 @@
 {
+	"devDependencies": {
+		"@tsconfig/node18": "^1.0.1",
+		"@types/node": "^18.15.11",
+		"typescript": "^5.0.3"
+	},
 	"engines": {
 		"node": "^18.15.0"
 	},
-	"private": true
+	"files": [
+		"dist"
+	],
+	"private": true,
+	"scripts": {
+		"prepare": "tsc"
+	}
 }

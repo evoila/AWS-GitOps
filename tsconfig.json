@@ -1,0 +1,29 @@
+// `tsc` supports JSON with comments, like Visual Studio Code
+// JSON with comments supports trailing commas, which help reduce git patches
+
+{
+	"extends": "@tsconfig/node18/tsconfig.json",
+	"compilerOptions": {
+		"alwaysStrict": true,
+		"experimentalDecorators": true,
+		"inlineSourceMap": true,
+		"inlineSources": true,
+		"noFallthroughCasesInSwitch": false,
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noUnusedLocals": false,
+		"noUnusedParameters": false,
+		"outDir": "dist",
+		"strict": true,
+		"strictNullChecks": true,
+		"strictPropertyInitialization": false,
+		"typeRoots": [
+			"./node_modules/@types",
+		],
+	},
+	"include": [
+		// If a glob pattern doesn’t include a file extension, then only files with supported extensions are included (e.g. `.ts`, `.tsx`, and `.d.ts` by default, with `.js` and `.jsx` if `allowJs` is set to true).
+		"src/**/*",
+	],
+}
