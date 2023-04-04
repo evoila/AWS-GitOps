@@ -12,7 +12,8 @@ This AWS CDK app requires:
 
 Additionally, developing this AWS CDK app requires:
 
-- [ESLint][].
+- [ESLint][]; and
+- [Jest][].
 
 The version of [Node.js][] should match the [version range][npm version ranges] given for the key `node` in the [object `engines`][package.json engines] in the [file `package.json`](./package.json).
 [Node.js][] versions may be installed in [different ways][Node.js installation].
@@ -30,6 +31,7 @@ All dependencies will be [installed locally][npm install local] and therefore wi
 [AWS CDK CLI]: https://docs.aws.amazon.com/cdk/v2/guide/cli
 [AWS CDK library for TypeScript]: https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib-readme
 [ESLint]: https://www.eslint.org/
+[Jest]: https://www.jestjs.io/
 [Node.js installation]: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 [Node.js]: https://www.nodejs.org/
 [npm CLI]: https://docs.npmjs.com/cli/v9/commands/npm
