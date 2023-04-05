@@ -2,7 +2,8 @@
 	"dependencies": {
 		"aws-cdk": "^2.75.1",
 		"aws-cdk-lib": "^2.75.1",
-		"constructs": "^10.2.1"
+		"constructs": "^10.2.1",
+		"octokit": "^2.0.14"
 	},
 	"devDependencies": {
 		"@tsconfig/node18": "^1.0.1",
