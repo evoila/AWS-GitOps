@@ -6,7 +6,6 @@
 		"octokit": "^2.0.14"
 	},
 	"devDependencies": {
-		"@octokit/types": "^9.0.0",
 		"@tsconfig/node18": "^1.0.1",
 		"@types/node": "^18.15.11",
 		"eslint": "^8.38.0",
