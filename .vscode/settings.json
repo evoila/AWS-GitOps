@@ -1,3 +1,6 @@
 // formatted as JSON with comments as parsed by Code OSS
 {
+	"[typescript]": {
+		"editor.insertSpaces": false,
+	},
 }
