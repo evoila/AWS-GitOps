@@ -1,5 +1,9 @@
 {
 	"app": "npx -- ts-node --prefer-ts-exts -- src/app.ts",
+	"plugin": [
+		"../../../dist/lib/plugins/OpenID Connect issuer TLS certificates",
+		"../../../dist/lib/plugins/GitHub"
+	],
 	"watch": {
 		"include": [
 			"**"
